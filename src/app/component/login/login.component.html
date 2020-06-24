@@ -1,0 +1,5 @@
+<form [formGroup]='LoginForm' novalidate class="form">
+    <input formControlName='username' type="text" class="form-control" placeholder="Enter Email" />
+    <input formControlName='password' type="password" class="form-control" placeholder="Enter Password" />
+    <button type="button" (click)="onSubmit()">Login</button>
+</form>
